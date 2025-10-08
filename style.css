@@ -7,7 +7,7 @@
     background-color: white;
 }
 
-.header {
+header {
     width: 100%;
 }
 
@@ -20,6 +20,7 @@
 
 section {
     width: 100%;
+    float: left;
 }
 
 .logo {
@@ -97,10 +98,38 @@ nav a:hover {
     padding: 10px 0;
 }
 
+#footerblurb {
+    background: #f8dbdb;
+    color: red;
+}
 
+.inner-footerblurb{
+    width: 50%;
+    margin: 0 auto;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    width: 33%;
+    padding: 15px 20px;
+    text-align: justify;
+}
+
+.col h2 {
+    color: darkred;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.col p{
+    font-size: 12px;
+}
 
 footer {
     width: 100%;
+    float: left;
 }
 
 .inner-footer{

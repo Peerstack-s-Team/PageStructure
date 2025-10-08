@@ -53,7 +53,6 @@ nav ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
 }
 
 nav a {
@@ -69,7 +68,6 @@ nav a:hover {
     font-size: 12px;
     padding: 8px 12px;
 }
-
 
 #feature {
     width: 100%;
@@ -89,13 +87,46 @@ nav a:hover {
     margin: 21px 0;
 }
 
-#content{
-}
-
 .inner-content {
     width: 50%;
     margin: 0 auto;
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#sidebar-nav{
+    width: 20%;
+}
+
+.inner-sidebar-nav{
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.inner-sidebar-nav h3{
+    font-size: 14px;
+    color: darkred;
+    margin: 10px 0;
+}
+
+.inner-sidebar-nav ul{
+    list-style-type: none;
+}
+
+.inner-sidebar-nav li{
+    padding: 4px 0;
+}
+
+.inner-sidebar-nav a{
+    color: red;
+    text-decoration: none;
+    padding: 4px 0;
+    font-size: 12px;
+}
+
+main{
+    width: 80%;
 }
 
 #footerblurb {
@@ -125,6 +156,7 @@ nav a:hover {
 
 .col p{
     font-size: 12px;
+    line-height: 24px;
 }
 
 footer {

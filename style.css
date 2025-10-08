@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif !important;
 }
 
 .bg-white {
@@ -29,13 +30,14 @@ section {
     align-items: center;
 }
 
-.logo h1{
+.logo h1 {
     margin: 8px 0;
 }
 
 .logo a {
     text-decoration: none;
     color: darkred;
+    font-size: 24px;
 }
 
 .logo span {
@@ -64,7 +66,7 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: red;
+    color: #f8dbdb;
     font-size: 12px;
     padding: 8px 12px;
 }
@@ -95,38 +97,75 @@ nav a:hover {
     justify-content: center;
 }
 
-#sidebar-nav{
+#sidebar-nav {
     width: 20%;
 }
 
-.inner-sidebar-nav{
+.inner-sidebar-nav {
     width: 100%;
     padding: 10px 15px;
 }
 
-.inner-sidebar-nav h3{
+.inner-sidebar-nav h3 {
     font-size: 14px;
     color: darkred;
     margin: 10px 0;
 }
 
-.inner-sidebar-nav ul{
+.inner-sidebar-nav ul {
     list-style-type: none;
 }
 
-.inner-sidebar-nav li{
+.inner-sidebar-nav li {
     padding: 4px 0;
 }
 
-.inner-sidebar-nav a{
+.inner-sidebar-nav a {
     color: red;
     text-decoration: none;
     padding: 4px 0;
     font-size: 12px;
 }
 
-main{
+.inner-sidebar-nav a:hover{
+    color: #f8dbdb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
     width: 80%;
+
+}
+
+.template-link {
+    background: #eee;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+article h3{
+    margin: 15px 0;
+}
+
+article h2{
+    margin: 15px 0;
+    font-size: 18px;
+    color: darkred;
+}
+
+article{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+article p{
+    margin: 12px 0;
+    font-size: 12px;
+    color: #95959595;
 }
 
 #footerblurb {
@@ -134,7 +173,7 @@ main{
     color: red;
 }
 
-.inner-footerblurb{
+.inner-footerblurb {
     width: 50%;
     margin: 0 auto;
     padding: 24px 0;
@@ -154,7 +193,7 @@ main{
     font-size: 18px;
 }
 
-.col p{
+.col p {
     font-size: 12px;
     line-height: 24px;
 }
@@ -164,7 +203,7 @@ footer {
     float: left;
 }
 
-.inner-footer{
+.inner-footer {
     width: 50%;
     margin: 0 auto;
     display: flex;

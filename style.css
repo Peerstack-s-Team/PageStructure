@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    text-decoration: none;
+}
+
+#logo a h1 {
+    color: red;
+    text-decoration: none;
+}

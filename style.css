@@ -1,4 +1,4 @@
-html {
+﻿html {
     padding: 0;
     margin: 0;
 }
@@ -25,6 +25,10 @@ body {
 
 #logo span {
     color: #f8dbdb;
+}
+
+#gap-element {
+    width: 100%;
 }
 
 #top-nav {
@@ -54,8 +58,8 @@ body {
     text-decoration: none;
 }
 
-#gap-element {
-    width: 100%;
+#top-nav ul li a:hover {
+    color:#f8dbdb;
 }
 
 #feature {
@@ -95,6 +99,12 @@ body {
 #sidebar a {
     text-decoration: none;
     color: red;
+}
+
+#sidebar ul li a:hover {
+    color:#f8dbdb;
+    font-weight:bold;
+    text-decoration:none;
 }
 
 #article {
@@ -149,120 +159,25 @@ body {
     color: red;
 }
 
-@media (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-
-    #header {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        display: flex;
-    }
-
-    #gap-element {
-        display: none;
-    }
-
-    #top-nav {
-        float: right;
-        padding: 0px 0 0;
-        margin: 0;
-        height: 36px;
-    }
-
-    #top-nav ul li a {
-        padding: 6px 8px;
-        font-size: 14px;
-    }
-
-    #sidebar {
-        color: darkred;
-    }
-
-    #article {
-        padding: 12px;
-        word-break: break-all;
-    }
-
-    #article a {
-        background: #eee;
-        border: 1px solid #ccc;
-        font-size: 100%;
-        text-decoration: none;
-        color: black;
-    }
-
-    #feature {
-        padding: 16px 0;
-        width: 100%;
-    }
-
-    #feature h1 {
-        font-size: 20px;
-    }
-
-    #content {
-        padding: 0;
-        width: 100%;
-    }
-
-    #footerblurb {
-        width: 100%;
-        margin: 0;
-        background: #f8dbdb;
-        color: red;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #footerblurb div {
-        margin: 0;
-        text-align: left;
-        float: left;
-        width: 100px;
-        padding: 0 10px;
-    }
-
-    #footerblurb h2 {
-        font-size: 16px;
-        word-break: break-all;
-    }
-
-    #footer {
-        width: 50%;
-    }
-}
-
 @media (max-width: 1024px) {
     body {
-        font-size: 26px;
+        font-size: 10px;
     }
 
     #header {
-        margin: 0 auto;
-        padding: 0;
         width: 100%;
-        display: flex;
     }
 
     #top-nav {
-        float: right;
-        padding: 0px 0 0;
         margin: 0;
-        height: 36px;
     }
 
     #top-nav ul li a {
         padding: 6px 8px;
-        font-size: 26px;
     }
 
     #sidebar {
         width: 100%;
-        color: darkred;
     }
 
     #article {
@@ -271,20 +186,15 @@ body {
     }
 
     #article a {
-        background: #eee;
-        border: 1px solid #ccc;
         font-size: 100%;
-        text-decoration: none;
-        color: black;
     }
 
     #feature {
         padding: 14px 0;
-        width: 100%;
     }
 
     #feature h1 {
-        font-size: 36px;
+        font-size: 24px;
         margin-left: 8px;
     }
 
@@ -294,28 +204,57 @@ body {
     }
 
     #footerblurb {
-        width: 100%;
         margin: 0;
-        background: #f8dbdb;
-        color: red;
-        padding: 0;
-        display: flex;
-        justify-content: center;
     }
     
     #footerblurb div {
-        margin: 0;
         text-align: left;
-        float: left;
     }
 
     #footerblurb h2 {
-        font-size: 32px;
-        word-break: break-all;
+        font-size: 16px;
     }
 
     #footer {
         width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 11px;
+    }
+
+    #gap-element {
+        display: none;
+    }
+
+    #top-nav {
+        float: left;
+    }
+
+    #top-nav li {
+        padding: 0;
+    }
+
+    #article {
+        padding: 12px;
+    }
+
+    #feature {
+        padding: 16px 0;
+    }
+
+    #feature h1 {
+        font-size: 20px;
+    }
+
+    #footerblurb div {
+        padding: 0 10px;
+    }
+
+    #footer {
+        width: 50%;
     }
 }
 
@@ -324,171 +263,12 @@ body {
         font-size: 14px;
     }
 
-    #header {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        display: flex;
-    }
-
-    #gap-element {
-        display: none;
-    }
-
-    #top-nav {
-        float: right;
-        padding: 0px 0 0;
-        margin: 0;
-        height: 36px;
-    }
-
     #top-nav ul li a {
-        padding: 6px 8px;
         font-size: 14px;
     }
 
-    #sidebar {
-        color: darkred;
-    }
-
-    #article {
-        padding: 12px;
-        word-break: break-all;
-    }
-
-    #article a {
-        background: #eee;
-        border: 1px solid #ccc;
-        font-size: 100%;
-        text-decoration: none;
-        color: black;
-    }
-
-    #feature {
-        padding: 16px 0;
-        width: 100%;
-    }
-
-    #feature h1 {
-        font-size: 20px;
-    }
-
-    #content {
-        padding: 0;
-        width: 100%;
-    }
-
-    #footerblurb {
-        width: 100%;
-        margin: 0;
-        background: #f8dbdb;
-        color: red;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
     
     #footerblurb div {
-        margin: 0;
-        text-align: left;
-        float: left;
         width: 100px;
-        padding: 0 10px;
-    }
-
-    #footerblurb h2 {
-        font-size: 16px;
-        word-break: break-all;
-    }
-
-    #footer {
-        width: 50%;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    #header {
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        display: flex;
-    }
-
-    #gap-element {
-        display: none;
-    }
-
-    #top-nav {
-        float: left;
-        padding: 0px 0 0;
-        margin: 0;
-        height: 36px;
-    }
-
-    #top-nav li {
-        margin: 0;
-        padding: 0;
-    }
-
-    #sidebar {
-        color: darkred;
-    }
-
-    #article {
-        padding: 12px;
-        word-break: break-all;
-    }
-
-    #article a {
-        background: #eee;
-        border: 1px solid #ccc;
-        font-size: 100%;
-        text-decoration: none;
-        color: black;
-    }
-
-    #feature {
-        padding: 16px 0;
-        width: 100%;
-    }
-
-    #feature h1 {
-        font-size: 20px;
-    }
-
-    #content {
-        padding: 0;
-        width: 100%;
-    }
-
-    #footerblurb {
-        width: 100%;
-        margin: 0;
-        background: #f8dbdb;
-        color: red;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #footerblurb div {
-        margin: 0;
-        text-align: left;
-        float: left;
-        width: 100px;
-        padding: 0 10px;
-    }
-
-    #footerblurb h2 {
-        font-size: 16px;
-        word-break: break-all;
-    }
-
-    #footer {
-        width: 50%;
     }
 }

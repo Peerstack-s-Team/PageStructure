@@ -1,0 +1,113 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font: normal 12px/2.0em Sans-Serif;
+}
+
+.qrmz{
+  color: red;
+}
+.boz{
+  color: #979797;
+}
+
+/* ✅ ümumi qayda: fon boydan boya, iç content 1200px */
+.full-width {
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+/* Header */
+.header-bg {
+  background-color: #fff5f5;
+}
+#header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+#LOGO {
+  margin-right: auto;
+  display: flex;
+}
+#cool { color: #8c0000; }
+#logo { color: #f7dadc; }
+
+nav {
+  margin-left: auto;
+  display: flex;
+}
+.PN {
+  margin-right: 13px;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover { color: white; }
+
+/* Heading */
+.heading-bg {
+  background-color: red;
+}
+#heading {
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+#ikinci {
+  color: white;
+}
+
+/* c1 */
+.c1 {
+  display: flex;
+  height: 350px;
+  gap: 30px;
+}
+#l { width: 25%; }
+#r { width: 75%; margin-top: 20px; }
+ul { list-style-type: none; padding: 0; }
+
+button {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+h3 { color: #8c0000; }
+
+/* c2 */
+.c2-bg {
+  background-color: #f8dbdb;
+}
+#c2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+/* Footer */
+.footer-bg {
+  background-color: white;
+}
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 13px;
+  color: #999;
+}
+.footer a {
+  color: red;
+  margin: 0 5px;
+}
+.footer a:hover {
+  color: #8c0000;
+}

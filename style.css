@@ -171,7 +171,6 @@ h1, h2, h3, h4, h5, h6 {
 .column {
   flex: 1;
   font-size: 13px;
-  text-align: justify;
 }
 
 #footer {
@@ -256,6 +255,13 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
     width: 100%;
     gap: 10px;
+  }
+
+  #footerblurb {
+    background: #f8dbdb;
+    color: red;
+    padding: 10px;
+    width: 94.7%;
   }
 
   #sidebar {

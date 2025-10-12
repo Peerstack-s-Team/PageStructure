@@ -1,0 +1,164 @@
+
+.first {
+    color: darkred;
+}
+
+.second {
+    color: red;
+    opacity: 0.5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+
+h2 {   
+    padding-left: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-nav ul {
+    float: none; 
+    margin-right: 0; 
+    list-style: none;
+    padding: 0;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-family: Arial, sans-serif;
+    font-weight: thin;
+}
+
+h1 {
+    color: rgb(249, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    min-height: 70px;
+    padding-top: 40px;   
+    padding-left:50px;    
+    min-width: unset; 
+    margin: 0; 
+}
+
+#content-area {
+    display: flex; 
+    margin-top: 0;   
+    padding-left: 50px; 
+}
+
+
+
+#left-header {  
+    width: 250px; 
+    flex-shrink: 0; 
+    padding-top: 30px; 
+}
+
+#left-header h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#left-header ul {
+    
+    padding-left: 0; 
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#left-header ul li a {
+    text-decoration: none;
+    color: red;
+    display: block;
+    padding: 5px 0;
+}
+
+
+
+
+#right-content {
+    flex-grow: 2; 
+    
+    padding-left: 40px; 
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#right-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 67, 67);
+
+}
+
+#right-content h2 {
+    color: darkred;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    margin-top: 50px; 
+}
+
+
+
+#footer-content-top {    
+    background-color: #f2d2d2; 
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.footer-column {
+    flex-grow: 1; 
+    padding-right: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-column h2 {
+    color: darkred; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    color: #4c3f3f; 
+   
+}
+
+
+
+#footer-copyright {
+    text-align: center;
+    color: #888;
+    padding: 15px 0;
+    border-top: 1px solid #ddd; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-copyright p {
+    margin: 0; 
+}
+
+#footer-copyright a {
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

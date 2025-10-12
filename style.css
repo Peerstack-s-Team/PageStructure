@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   #header-inner, .feature-inner, #content-inner, #footerblurb-inner {
     width: 100%;
   }
-  #content{
+  #content {
     display: flex;
   }
   #content-inner {
@@ -232,23 +232,23 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 375px) and (max-width: 425px) {
   #header-inner {
     flex-direction: row;
-    justify-content: center;   /* ortada saxla */
+    justify-content: center;
     align-items: center;
-    gap: 20px;                 /* logo ilə menyu arası */
-    padding: 8px 0;            /* yuxarı-aşağı sıxlaşdırma */
+    gap: 20px;
+    padding: 8px 0;
   }
 
   #logo h1 {
-    font-size: 22px;           /* bir az kiçiltmək üçün */
+    font-size: 22px;
   }
 
   #top-nav ul {
     flex-direction: row;
-    gap: 10px;                 /* menyu itemləri yaxınlaşdır */
+    gap: 10px;
   }
 
   #top-nav ul li a {
-    padding: 6px 8px;          /* daha kompakt görünsün */
+    padding: 6px 8px;
     font-size: 13px;
   }
    #content-inner {
@@ -259,11 +259,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #sidebar {
-    width: 25%;   /* əvvəlkindən az yer tutur */
+    width: 25%;
     min-width: 100px;
   }
 
   #contentbar {
-    width: 75%;   /* əsas content daha geniş olur */
+    width: 75%;
   }
 }

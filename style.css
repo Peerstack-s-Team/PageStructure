@@ -1,28 +1,152 @@
 * {
     padding: 0;
     margin: 0;
-}
-#header #logo {
-    width: 100%;
-    height: 57px;
-    margin-left: 15%;
-}
-#header #information {
-    margin-left: 85%;
-}
-
-#header #logo a {
-    color: #8b0000;
+    font-family: sans-serif;
     text-decoration: none;
 }
-
-#header #logo a span {
-    color: #f8dbdd;
+#header {
+    width: 100%;
+    height: 50px;
 }
+#header #information ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: end;
+    margin-right: 20%;
+}
+#header #information ul li {
+    color: red;
+    font-size: 12px;
+    margin-top: 20px;
+}
+#header #information ul li a{
+    color: red;
+}
+#header #information ul li a:hover{
+    color: #f8dbdb;
+}
+#header #logo a h3{
+    color: darkred;
+    float: left;
+    margin-left: 20%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#header #logo a span {
+    color: #f8dbdb;
+}
+
 #heading {
+    color: white;
     background-color: red;
     width: 100%;
-    height: 103px;
-    color: white;
-    padding: 18px;
+    height: 100px;
+}
+#heading h1 {
+    margin-left: 20%;
+    float: left;
+    margin-top: 30px;
+}
+.center {
+    width: 100%;
+    height: 40%;
+}
+.center #left-heading {
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-left: 20%;
+    color: darkred;
+    margin-top: 25px;
+}
+.center #left-heading ul {
+    list-style: none;
+    font-size: 10px;
+    margin-top: 15px;
+}
+.center #left-heading ul li {
+    margin: 15px 0 0 0;
+}
+.center #left-heading ul a{
+    color: red;
+}
+.center #left-heading ul a:hover{
+    color: #f8dbdb;
+}
+.center #page-center #button{
+    margin: 25px 0 25px 0;
+    font-size: large;
+    font-weight: bolder;
+    width: 250px;
+    height: 25px;
+}
+.center #page-center p {
+    font-size: 12px;
+    margin-right: 25%;
+    color: gray;
+}
+.center #content h3 {
+    color: darkred;
+    padding: 25px;
+    font-size: 25px;
+}
+.center #content p {
+    color: gray;
+    font-weight: lighter;
+    margin-right: 25%;
+    font-size: 12px;
+    padding: 10px;
+    line-height: 2;
+}
+#inner #heading-inner {
+    background-color: #f8dbdb;
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    display: flex;
+}
+#inner #heading-inner h3 {
+    margin: 25px 0 25px 0;
+    color: darkred;
+}
+#inner #heading-inner p {
+    color: red;
+    font-size: 12px;
+    line-height: 2;
+}
+#inner #heading-inner #page-inner {
+    width: 250px;
+    height: 200px;
+    margin-left: 250px;
+}
+#inner #heading-inner #page-inner2 {
+    width: 250px;
+    height: 200px;
+    margin: 0 50px 0 50px;
+}
+#inner #heading-inner #page-inner3 {
+    width: 250px;
+    height: 200px;
+}
+
+#inner #copyright ul {
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin-top: 15px;
+    list-style: none;
+    gap: 10px;
+    height: 40px;
+    width: 100%;
+    color: gray;
+}
+#inner #copyright ul a {
+    color: red;
+}
+#inner #copyright ul a:hover {
+    color: #f8dbdb;
 }

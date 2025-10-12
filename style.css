@@ -1,223 +1,259 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif !important;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif !important;
 }
 
 .bg-white {
-    background-color: white;
+  background-color: white;
 }
 
 header {
-    width: 100%;
+  width: 100%;
 }
 
 #inner-header {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 section {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 
 .logo {
-    width: 100%;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .logo h1 {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
 .logo a {
-    text-decoration: none;
-    color: darkred;
-    font-size: 24px;
+  text-decoration: none;
+  color: darkred;
+  font-size: 24px;
 }
 
 .logo span {
-    color: #f8dbdb;
+  color: #f8dbdb;
 }
 
 nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
-    list-style-type: none;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav a {
-    text-decoration: none;
-    color: red;
-    font-size: 12px;
-    padding: 8px 12px;
+  text-decoration: none;
+  color: red;
+  font-size: 12px;
+  padding: 8px 20px;
 }
 
 nav a:hover {
-    text-decoration: none;
-    color: #f8dbdb;
-    font-size: 12px;
-    padding: 8px 12px;
+  color: #f8dbdb;
 }
 
 #feature {
-    width: 100%;
-    float: left;
-    background-color: red;
-    padding: 18px 0;
+  width: 100%;
+  float: left;
+  background-color: red;
+  padding: 18px 0;
 }
 
-.inner-feature {
-    width: 50%;
-    margin: 0 auto;
+#inner-feature {
+  width: 50%;
+  margin: 0 auto;
 }
 
-.inner-feature h1 {
-    color: #f8dbdb;
-    font-size: 32px;
-    margin: 21px 0;
+#inner-feature h1 {
+  color: #f8dbdb;
+  font-size: 32px;
+  margin: 21px 0;
 }
 
-.inner-content {
-    width: 50%;
-    margin: 0 auto;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
+#inner-content {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 #sidebar-nav {
-    width: 20%;
+  width: 20%;
 }
 
-.inner-sidebar-nav {
-    width: 100%;
-    padding: 10px 15px;
+#inner-sidebar-nav {
+  width: 100%;
+  padding: 10px 15px;
 }
 
-.inner-sidebar-nav h3 {
-    font-size: 14px;
-    color: darkred;
-    margin: 10px 0;
+#inner-sidebar-nav h3 {
+  font-size: 14px;
+  color: darkred;
+  margin: 10px 0;
 }
 
-.inner-sidebar-nav ul {
-    list-style-type: none;
+#inner-sidebar-nav ul {
+  list-style-type: none;
 }
 
-.inner-sidebar-nav li {
-    padding: 4px 0;
+#inner-sidebar-nav li {
+  padding: 4px 0;
 }
 
-.inner-sidebar-nav a {
-    color: red;
-    text-decoration: none;
-    padding: 4px 0;
-    font-size: 12px;
+#inner-sidebar-nav a {
+  color: red;
+  text-decoration: none;
+  padding: 4px 0;
+  font-size: 12px;
 }
 
-.inner-sidebar-nav a:hover{
-    color: #f8dbdb;
-    font-weight: bold;
-    text-decoration: none;
+#inner-sidebar-nav a:hover {
+  color: #f8dbdb;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 main {
-    width: 80%;
-
+  width: 80%;
 }
 
 .template-link {
-    background: #eee;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
-    padding: 3px;
+  background: #eee;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  padding: 3px;
 }
 
-article h3{
-    margin: 15px 0;
+article h3 {
+  margin: 15px 0;
 }
 
-article h2{
-    margin: 15px 0;
-    font-size: 18px;
-    color: darkred;
+article h2 {
+  margin: 15px 0;
+  font-size: 18px;
+  color: darkred;
 }
 
-article{
-    font-size: 12px;
-    line-height: 24px;
+article {
+  font-size: 12px;
+  line-height: 24px;
 }
 
-article p{
-    margin: 12px 0;
-    font-size: 12px;
-    color: #95959595;
+article p {
+  margin: 12px 0;
+  font-size: 12px;
+  color: #95959595;
 }
 
 #footerblurb {
-    background: #f8dbdb;
-    color: red;
+  background: #f8dbdb;
+  color: red;
 }
 
-.inner-footerblurb {
-    width: 50%;
-    margin: 0 auto;
-    padding: 24px 0;
-    display: flex;
-    justify-content: space-evenly;
+#inner-footerblurb {
+  width: 50%;
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .col {
-    width: 33%;
-    padding: 15px 20px;
-    text-align: justify;
+  width: 33%;
+  padding: 15px 20px;
+  text-align: justify;
 }
 
 .col h2 {
-    color: darkred;
-    margin: 15px 0;
-    font-size: 18px;
+  color: darkred;
+  margin: 15px 0;
+  font-size: 18px;
 }
 
 .col p {
-    font-size: 12px;
-    line-height: 24px;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 footer {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 
-.inner-footer {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding: 12px 0;
+#inner-footer {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
 }
 
-.inner-footer p {
-    color: #95959595;
-    font-size: 12px;
-    margin: 12px 0;
+#inner-footer p {
+  color: #95959595;
+  font-size: 12px;
+  margin: 12px 0;
 }
 
-.inner-footer a {
-    text-decoration: none;
-    color: red;
+#inner-footer a {
+  text-decoration: none;
+  color: red;
+}
+
+@media (max-width: 1800px) {
+  #inner-header,
+  #inner-feature,
+  #inner-content,
+  #inner-footer,
+  #inner-footerblurb {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1536px) {
+  #inner-header,
+  #inner-feature,
+  #inner-content,
+  #inner-footer,
+  #inner-footerblurb {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1366px) {
+  #inner-header,
+  #inner-feature,
+  #inner-content,
+  #inner-footer,
+  #inner-footerblurb {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1140px) {
+  #inner-header,
+  #inner-feature,
+  #inner-content,
+  #inner-footer,
+  #inner-footerblurb {
+    width: 90%;
+  }
 }

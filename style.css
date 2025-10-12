@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   color: darkred;
   margin: 0 0 10px;
 }
-article h3 {
+.article h3 {
   border: 2px solid #d5d0d0;
   display: inline-block;
   padding: 5px;
@@ -229,18 +229,41 @@ article h3 {
     width: 500px;
   }
 }
-@media (max-width: 480px) {
-  .feature-inner h1 {
-    font-size: 28px;
+@media (min-width: 375px) and (max-width: 425px) {
+  #header-inner {
+    flex-direction: row;
+    justify-content: center;   /* ortada saxla */
+    align-items: center;
+    gap: 20px;                 /* logo ilə menyu arası */
+    padding: 8px 0;            /* yuxarı-aşağı sıxlaşdırma */
+  }
 
+  #logo h1 {
+    font-size: 22px;           /* bir az kiçiltmək üçün */
   }
-  #footerblurb {
-    background: #f8dbdb;
-    color: red;
-    padding: 10px;
-    width: 350px;
+
+  #top-nav ul {
+    flex-direction: row;
+    gap: 10px;                 /* menyu itemləri yaxınlaşdır */
   }
-  #content-inner {
-    display: block;
+
+  #top-nav ul li a {
+    padding: 6px 8px;          /* daha kompakt görünsün */
+    font-size: 13px;
   }
- }
+   #content-inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+
+  #sidebar {
+    width: 25%;   /* əvvəlkindən az yer tutur */
+    min-width: 100px;
+  }
+
+  #contentbar {
+    width: 75%;   /* əsas content daha geniş olur */
+  }
+}

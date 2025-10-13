@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     display:flex;
     justify-content: space-between;
     margin:0 auto;
-    width :922px;
+    width :50%;
     gap :20px;
   }
   .footer-column {
@@ -145,171 +145,171 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 @media (max-width: 1024px) {
-  #header-inner, .feature-inner, #content-inner, #footerblurb-inner {
+  .container-nav, .banner-in, .container-in, .footer-top-in {
     padding: 0 15px;
   }
   
-  #logo h1 {
+  .logo h1 {
     font-size: 24px;
   }
   
-  #top-nav ul {
+  .nav-links ul {
     gap: 15px;
   }
   
-  #sidebar {
+  .sidebar {
     width: 180px;
   }
   
-  .column {
+  .footer-column {
     font-size: 13px;
   }
 }
 
 @media (max-width: 768px) {
-  #header-inner {
+  .container-nav {
     padding: 12px 15px;
   }
   
-  #logo h1 {
+  .logo h1 {
     font-size: 20px;
   }
   
-  #top-nav ul {
+  .nav-links ul {
     gap: 10px;
   }
   
-  #top-nav ul li a {
+  .nav-links ul li a {
     padding: 6px 10px;
     font-size: 13px;
   }
   
-  #content-inner {
+  .container-in {
     flex-direction: row;
     padding: 0 15px;
     gap: 15px;
   }
   
-  #sidebar {
+  .sidebar {
     width: 150px;
     min-width: 150px;
     flex-shrink: 0;
   }
   
-  #contentbar {
+  .content {
     flex: 1;
   }
   
-  #footerblurb-inner {
+  .footer-top-in {
     flex-direction: column;
     padding: 0 15px;
   }
   
-  .column {
+  .footer-column {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 576px) {
-  #header-inner {
+  .container-nav {
     padding: 10px 12px;
   }
   
-  #logo h1 {
+  .logo h1 {
     font-size: 18px;
   }
   
-  #top-nav ul {
+  .nav-links ul {
     gap: 5px;
     flex-wrap: wrap;
   }
   
-  #top-nav ul li a {
+  .nav-links ul li a {
     padding: 5px 8px;
     font-size: 12px;
   }
   
-  .feature {
+  .banner {
     padding: 30px 0;
   }
   
-  .feature-inner h2 {
+  .banner-in h2 {
     font-size: 18px;
   }
   
-  #content-inner {
+  .container-in {
     padding: 0 12px;
     gap: 12px;
   }
   
-  #sidebar {
+  .sidebar {
     width: 120px;
     min-width: 120px;
   }
   
-  #sidebar h2 {
+  .sidebar h2 {
     font-size: 14px;
   }
   
-  #sidebar ul li {
+  .sidebar ul li {
     margin-bottom: 4px;
   }
   
-  #sidebar ul li a {
+  .sidebar ul li a {
     font-size: 12px;
   }
   
-  #footerblurb-inner {
+  .footer-top-in {
     padding: 0 12px;
   }
 }
 
 
 @media (max-width: 425px) {
-  #header-inner {
+  .container-nav{
     padding: 8px 10px;
   }
   
-  #logo h1 {
+  .logo h1 {
     font-size: 16px;
   }
   
-  #top-nav ul {
+  .nav-links ul {
     gap: 4px;
   }
   
-  #top-nav ul li a {
+  .nav-links ul li a {
     padding: 4px 6px;
-    font-size: 11px;
+    font-size: 10px;
   }
   
-  .feature {
+  .banner {
     padding: 25px 0;
   }
   
-  .feature-inner h2 {
+  .banner-in h2 {
     font-size: 16px;
   }
   
-  #content-inner {
+  .container-in {
     padding: 0 10px;
     gap: 10px;
   }
   
-  #sidebar {
+  .sidebar {
     width: 100px;
     min-width: 100px;
   }
   
-  #sidebar h2 {
+  .sidebar h2 {
     font-size: 13px;
   }
   
-  #sidebar ul li a {
+  .sidebar ul li a {
     font-size: 11px;
   }
   
-  #footerblurb-inner {
+  .footer-top-in {
     padding: 0 10px;
   }
   
@@ -319,55 +319,55 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 375px) {
-  #header-inner {
+  .container-nav {
     padding: 8px;
     gap: 3px;
   }
   
-  #logo h1 {
+  .logo h1 {
     font-size: 14px;
   }
   
-  #top-nav ul {
+  .nav-links ul {
     gap: 2px;
   }
   
-  #top-nav ul li a {
+  .nav-links ul li a {
     padding: 3px 5px;
     font-size: 10px;
   }
   
-  .feature {
+  .banner {
     padding: 20px 0;
   }
   
-  .feature-inner h2 {
+  .banner-in h2 {
     font-size: 14px;
   }
   
-  #content-inner {
+  .container-in {
     padding: 0 8px;
     gap: 8px;
   }
   
-  #sidebar {
+  .sidebar {
     width: 80px;
     min-width: 80px;
   }
   
-  #sidebar h2 {
+  .sidebar h2 {
     font-size: 12px;
   }
   
-  #sidebar ul li {
+  .sidebar ul li {
     margin-bottom: 3px;
   }
   
-  #sidebar ul li a {
+  .sidebar ul li a {
     font-size: 10px;
   }
   
-  #footerblurb-inner {
+  .footer-top-in {
     padding: 0 8px;
   }
   
@@ -380,4 +380,3 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 11px;
   }
 }
-  

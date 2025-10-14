@@ -111,3 +111,28 @@ h3 { color: #8c0000; }
 .footer a:hover {
   color: #8c0000;
 }
+
+/* ===========================
+   📌 WEB RESPONSIVE (Desktop only)
+=========================== */
+
+/* Desktop responsiv üçün max-width 1200px-dən 800px-ə qədər */
+@media (max-width: 1200px) and (min-width: 801px) {
+
+  .container {
+    padding: 0 40px; /* daha dar padding */
+  }
+
+  .c1 {
+    gap: 20px;
+  }
+
+  #r {
+    margin-top: 15px;
+  }
+
+  #c2 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

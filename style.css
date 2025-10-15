@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 2px 5px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+header p{
+    display: inline;
+    border: 3px solid #0084fff8;
+    
+    /* margin: 5px; */
+}
+header .frst{
+    color: brown;
+    font-size: 150% ;
+    font-weight: 200%;
+    border-right: none;
+}
+header .scnd{
+    color: goldenrod;
+    font-size: 150% ;
+    font-weight: 200%;
+    border-left: none;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+}
+header .navbar{
+    color: red;
+    padding: 5px;
+    border: 3px solid #0084fff8;
+}
+.heading{
+    background-color: red;
+    height: 50px;
+    width: 100vw;
+    margin: 10px 0;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.heading h3{
+    color: #fff;
+    margin-left: 20vw;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -9px;
+    border: 2px solid brown;
+}
+.section .leftside{
+    padding: 2vw 5vw;
+    border: 2px solid black;
+    margin-left: 10vw;
+
+}
+.section .leftside p{
+    color: brown;
+    font-weight: 600;
+}
+.section .leftside a{
+    text-decoration: none;
+    color: coral;
+    display: block;
+}
+.section .rightside{
+    padding: 2vw 5vw;
+    border: 2px solid black;
+    margin-left: 10vw;
+}
+.section .rightside .upside , .downside{
+    color: lightgrey;
+}
+.section .rightside .upside button{
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.section .rightside .downside h3{
+    color:brown;
+    font-weight: 600;
+    margin: 10px 0;
+}
+

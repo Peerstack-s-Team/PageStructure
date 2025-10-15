@@ -1,0 +1,48 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: red;
+    padding: 5px;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li a:hover{
+background-color: rgb(245, 255, 255);
+color: rgb(245, 8, 8);
+}
+header h1{
+    text-align: left;
+}
+header h2{
+    background-color: red; color: aliceblue;
+    text-align: center;
+    padding: 45px;
+}
+header h3{
+    color: brown;
+    text-align: center;
+}
+header h4{
+  text-align: center;
+  color: red
+}
+header h4 p {
+  bottom: auto;
+}
+div h1 {
+    text-align: center;
+    color: brown; 
+}
+div h1 p{
+    padding: 0%;
+}

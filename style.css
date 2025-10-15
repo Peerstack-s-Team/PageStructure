@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     display:flex;
     justify-content: space-between;
     margin:0 auto;
-    width :50%;
+    width :922px;
     gap :20px;
   }
   .footer-column {
@@ -145,238 +145,124 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 @media (max-width: 1024px) {
-  .container-nav, .banner-in, .container-in, .footer-top-in {
-    padding: 0 15px;
-  }
-  
-  .logo h1 {
-    font-size: 24px;
-  }
-  
-  .nav-links ul {
-    gap: 15px;
-  }
-  
-  .sidebar {
-    width: 180px;
-  }
-  
-  .footer-column {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container-nav {
-    padding: 12px 15px;
-  }
-  
-  .logo h1 {
-    font-size: 20px;
-  }
-  
-  .nav-links ul {
-    gap: 10px;
-  }
-  
-  .nav-links ul li a {
-    padding: 6px 10px;
-    font-size: 13px;
-  }
-  
-  .container-in {
-    flex-direction: row;
-    padding: 0 15px;
-    gap: 15px;
-  }
-  
-  .sidebar {
-    width: 150px;
-    min-width: 150px;
-    flex-shrink: 0;
-  }
-  
-  .content {
-    flex: 1;
-  }
-  
+  .container-nav,
+  .banner-in,
+  .container-in,
   .footer-top-in {
-    flex-direction: column;
     padding: 0 15px;
   }
-  
+
   .footer-column {
-    margin-bottom: 20px;
+    font-size: 13px;
   }
 }
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
 
+  .sidebar {
+    width: 140px;
+    padding: 5px;
+  }
+
+  .container-in {
+    gap: 15px;
+  }
+
+  .footer-top-in {
+    width: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
 @media (max-width: 576px) {
   .container-nav {
-    padding: 10px 12px;
-  }
-  
-  .logo h1 {
-    font-size: 18px;
-  }
-  
-  .nav-links ul {
-    gap: 5px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
   }
-  
-  .nav-links ul li a {
-    padding: 5px 8px;
-    font-size: 12px;
+
+  .nav-links {
+    gap: 20px;
   }
-  
-  .banner {
-    padding: 30px 0;
-  }
-  
-  .banner-in h2 {
-    font-size: 18px;
-  }
-  
-  .container-in {
-    padding: 0 12px;
-    gap: 12px;
-  }
-  
+
   .sidebar {
     width: 120px;
-    min-width: 120px;
+    padding: 5px;
   }
-  
-  .sidebar h2 {
-    font-size: 14px;
-  }
-  
-  .sidebar ul li {
-    margin-bottom: 4px;
-  }
-  
-  .sidebar ul li a {
-    font-size: 12px;
-  }
-  
+
   .footer-top-in {
-    padding: 0 12px;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
   }
 }
 
-
 @media (max-width: 425px) {
-  .container-nav{
-    padding: 8px 10px;
-  }
-  
-  .logo h1 {
-    font-size: 16px;
-  }
-  
-  .nav-links ul {
-    gap: 4px;
-  }
-  
-  .nav-links ul li a {
-    padding: 4px 6px;
-    font-size: 10px;
-  }
-  
-  .banner {
-    padding: 25px 0;
-  }
-  
-  .banner-in h2 {
-    font-size: 16px;
-  }
-  
-  .container-in {
-    padding: 0 10px;
+  .container-nav {
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
-  
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
   .sidebar {
-    width: 100px;
-    min-width: 100px;
+    width: 110px;
+    padding: 4px;
   }
-  
-  .sidebar h2 {
-    font-size: 13px;
-  }
-  
-  .sidebar ul li a {
-    font-size: 11px;
-  }
-  
-  .footer-top-in {
-    padding: 0 10px;
-  }
-  
+
   .article h3 {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .article p {
+    font-size: 12px;
+  }
+
+  .footer-top-in {
+    width: auto;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 @media (max-width: 375px) {
-  .container-nav {
-    padding: 8px;
-    gap: 3px;
+  .nav-links {
+    gap: 10px;
   }
-  
-  .logo h1 {
-    font-size: 14px;
-  }
-  
-  .nav-links ul {
-    gap: 2px;
-  }
-  
-  .nav-links ul li a {
-    padding: 3px 5px;
-    font-size: 10px;
-  }
-  
-  .banner {
-    padding: 20px 0;
-  }
-  
-  .banner-in h2 {
-    font-size: 14px;
-  }
-  
-  .container-in {
-    padding: 0 8px;
-    gap: 8px;
-  }
-  
+
   .sidebar {
-    width: 80px;
-    min-width: 80px;
+    width: 100px;
+    padding: 4px;
   }
-  
-  .sidebar h2 {
-    font-size: 12px;
-  }
-  
-  .sidebar ul li {
-    margin-bottom: 3px;
-  }
-  
-  .sidebar ul li a {
-    font-size: 10px;
-  }
-  
-  .footer-top-in {
-    padding: 0 8px;
-  }
-  
+
   .article h3 {
-    font-size: 14px;
-    padding: 3px;
+    font-size: 13px;
   }
-  
+
   .article p {
     font-size: 11px;
+  }
+
+  .footer-column {
+    font-size: 11px;
+  }
+
+  .footer-top-in {
+    width: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

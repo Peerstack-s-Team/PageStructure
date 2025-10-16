@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F8DBDB !important; 
+}
+
 /* ------------------- NAV BAR ------------------- */
 
 .head{
@@ -48,7 +56,7 @@
 }
 
 .links a {
-    font: normal 12px / 2.0em Sans-Serif;
+    font: normal 15px / 2.0em Sans-Serif;
     color: red;
 }
 
@@ -117,6 +125,10 @@
 .left h6 {
     color: red;
     font: normal 12px / 2.0em Sans-Serif;
+}
+
+.left a :hover{
+    color: #F8DBDB;
 }
 
 .upside button {

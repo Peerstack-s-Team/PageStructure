@@ -1,0 +1,171 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    position: relative;
+    height: 800px;
+}
+.container {
+    margin-inline: 16%;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    right: 0px;
+}
+
+header {
+    width: 70%;
+    margin: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: red;
+    font-size: small;
+}
+
+header li {
+    list-style-type: none;
+    padding: 0px 25px;
+}
+
+header a:hover {
+    color: rgb(169, 169, 169);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 220, 220);
+    display: flex;
+    justify-content: center;
+
+}
+
+.footercontainer {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footercontainer p {
+    line-height: 0.9cm;
+    font-size: small;
+    color: red;
+}
+
+.footercontainer h3 {
+    color: rgb(130, 1, 1);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright a {
+    color: red;
+    text-decoration: none;
+}
+
+
+.main-s {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: calc(100% - 52px);
+    
+}
+
+.left-side, .right-side {
+    width: 50%;
+    margin: 10px;
+    
+}
+
+.main-s {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 50%;
+}
+
+
+.left-side {
+    width: 20%;
+
+}
+
+.left-side a {
+    color: red;
+    font-size: small;
+    line-height: 0.7cm;
+    text-decoration: none;
+
+}
+
+.left-side li {
+    list-style-type: none;
+}
+
+.right-side {
+    width: 80%;
+}
+
+.left-side {
+    width: 20%;
+}
+
+.btn {
+    border: rgb(200, 200, 200);
+    font-weight: 700;
+    font-size: large;
+    margin-top: 15px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.main-heading {
+    background-color: red;
+    height: 100px;
+    width: 100%;
+}
+
+.main-heading h3 {
+    width: 66%;
+    margin: auto;
+    line-height: 100px;
+    
+}
+
+
+
+@media only screen and (max-width:992px) {
+    header ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header li {
+        padding: 5px;
+    }
+    .main-heading h3 {
+        text-align: center;
+    }
+    .main-s {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .left-side, .right-side {
+        width: 90%;
+    }
+    .footercontainer {
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5;
+        margin: 20px;
+        width: 100%;
+    }
+}

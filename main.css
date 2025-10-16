@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ a:hover {
 
 /* ------------------- NAV BAR ------------------- */
 
-.head{
+header {
     width: 100%;
     height: 60px;
     display: flex;
@@ -21,13 +21,13 @@ a:hover {
     justify-content: center;
 }
 
-.innavbar{
+nav {
     width: 75%;
     height: 100%;
     float: left;
 }
 
-.logo{
+.logo {
     width: 35%;
     height: 100%;
     float: left;
@@ -38,15 +38,15 @@ a:hover {
     font-weight: bold;
 }
 
-.logopt1{
+.logopt1 {
     color: #8B0000;
 }
 
-.logopt2{
+.logopt2 {
     color: #F8DBDB;
 }
 
-.links{
+.links {
     width: 40%;
     height: 100%;
     display: flex;
@@ -62,7 +62,7 @@ a:hover {
 
 /* ------------------- HEADING ------------------- */
 
-.headingtitle{
+.headingtitle {
     width: 100%;
     height: 100px;
     background-color: red;
@@ -71,7 +71,7 @@ a:hover {
     justify-content: center;
 }
 
-.htbox{
+.htbox {
     width: 75%;
     height: 100%;
     display: flex;
@@ -86,7 +86,7 @@ a:hover {
     font-size: 2em;
 }
 
-.contt{
+main {
     width: 100%;
     height: 300px;
     display: flex;
@@ -94,7 +94,7 @@ a:hover {
     justify-content: center;
 }
 
-.content{
+.content {
     width: 75%;
     height: 100%;
     display: flex;
@@ -127,7 +127,7 @@ a:hover {
     font: normal 12px / 2.0em Sans-Serif;
 }
 
-.left a :hover{
+.left a :hover {
     color: #F8DBDB;
 }
 

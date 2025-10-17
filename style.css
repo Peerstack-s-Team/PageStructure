@@ -1,48 +1,59 @@
 *{
-   margin: 0;
-   padding: 0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif
 }
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 15px;
+
+.header{
+    background: #f8f6f6;
+    color:#ffffff
+
+
 }
-nav ul li a{
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: darkred;
+    width: fit-content;
+    height: fit-content;
+}
+header span{
+    color: #f8dbdb
+}
+
+header nav a{
+    color:red;
+    margin-left: 0px;
     text-decoration: none;
-    margin-left: 35px;
-    color: red;
-    padding: 5px;
+    width: 10px;
+    height: 300px;
+    padding-left: 7%;
+    justify-content: center;
 }
-nav ul{
-    text-align: center;
-}
-nav ul li a:hover{
-background-color: rgb(245, 255, 255);
-color: rgb(245, 8, 8);
-}
-header h1{
+
+.head{
+    background: #ff1500;
+    color: white;
     text-align: left;
+    width: 1500px;
+    height: 100px;
 }
-header h2{
-    background-color: red; color: aliceblue;
-    text-align: center;
-    padding: 45px;
+
+main aside ul li a{
+    color:#f44336; 
 }
-header h3{
-    color: brown;
-    text-align: center;
+.navigation{
+padding-left: 70%;
+width: fit-content;
+height: fit-content;
+
 }
-header h4{
-  text-align: center;
-  color: red
+h2{
+    color:#f44336;
 }
-header h4 p {
-  bottom: auto;
-}
-div h1 {
-    text-align: center;
-    color: brown; 
-}
-div h1 p{
-    padding: 0%;
+.ul{
+    width: 40px;
+    height: 35px;
 }

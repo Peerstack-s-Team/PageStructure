@@ -1,0 +1,166 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font: normal 12px/2.0em Sans-Serif;
+}
+
+.qrmz {
+  color: red;
+}
+.boz {
+  color: #979797;
+}
+
+.full-width {
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.header-bg {
+  background-color: #fff5f5;
+}
+#header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+#LOGO {
+  margin-right: auto;
+  display: flex;
+}
+#cool { color: #8c0000; }
+#logo { color: #f7dadc; }
+
+nav {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.PN {
+  margin-right: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #f8dbdb;
+}
+
+.heading-bg {
+  background-color: red;
+}
+#heading {
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+#ikinci {
+  color: white;
+}
+
+.c1 {
+  display: flex;
+  gap: 30px;
+  height: 350px;
+}
+#l { width: 25%; }
+#r { width: 75%; margin-top: 20px; }
+ul { list-style-type: none; padding: 0; }
+
+button {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+h3 { color: #8c0000; }
+
+.c2-bg {
+  background-color: #f8dbdb;
+}
+#c2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.red {
+  color: #8c0000;
+  margin-bottom: 8px;
+}
+
+.footer-bg {
+  background-color: white;
+}
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 13px;
+  color: #999;
+}
+.footer a {
+  color: red;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #f8dbdb;
+}
+
+@media (max-width: 1200px) and (min-width: 801px) {
+  .container {
+    padding: 0 40px;
+  }
+  .c1 {
+    gap: 20px;
+  }
+  #r {
+    margin-top: 15px;
+  }
+  #c2 {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 20px;
+  }
+  #header, #heading {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 0;
+  }
+  nav {
+    margin-left: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .c1 {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+  }
+  #l, #r {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #c2 {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+}

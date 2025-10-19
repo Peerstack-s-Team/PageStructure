@@ -1,13 +1,45 @@
-body{
-    margin:0;
-    width:100%;
-    font: normal 12px/1.8em Sans-Serif;
-    color: #959595;
-    background: #fff;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+ header {
+    background: #f8f6f6;
+    color: #e53935;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20%;
+    border-bottom: 1px solid #ccc;
+ }
+header.logo {
+    font-size: 24px;
+    font-weight: bold;
     color: darkred;
-    margin: 0 0 10px;
+}
+header span {
+    color: #f8dbdb;
+}
+header nav a {
+    color: red;
+    margin-left: 15px;
+    text-decoration: none;
+}
+li a :hover {
+    color: #959595;
+    text-decoration: underline;
+    opacity: 0.7;
+    color: #e53935;
+}
+.banner {
+    background: #e52113;
+    color: white;
+    text-align: left;
+    align-items: center;
+    padding-left: 120px;
+    height: 90px;
+    display: flex;
 }
 .navbar {
     background-color: #ffffff;
@@ -44,4 +76,23 @@ color: red;
 }
 .link { 
     list-style: none;
+}
+.three-columns-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+.column {
+    width: 30%;
+    padding: 10px;
+    color: #a0522d;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 1 px solid #ccc;
+    font-size: 12px;
+    color: #666;
 }

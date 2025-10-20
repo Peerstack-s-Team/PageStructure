@@ -48,10 +48,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .banner{
     background: red;
-    padding:20px 0;
+    padding: 40px 0;
     text-align: left;
-    font-size:17px;
-    
+    font-size: 17px;
   }
   .banner-in{
     width: 970px;
@@ -59,7 +58,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 17px;
   }
   .banner-in h1{
-  color: #f8dbdb;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
   }
   .container {
     max-width: 960px;

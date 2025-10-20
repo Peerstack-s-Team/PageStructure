@@ -1,0 +1,148 @@
+body {
+  width: 100%;
+  color: #959595;
+  display: block;
+}
+
+#page {
+  background-color: #fff;
+}
+div {
+  display: block;
+}
+
+#header {
+  background-color: #fff;
+  display: block;
+}
+
+#header-inner {
+  width: 970px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo h1 a {
+  display: flex;
+  justify-content: flex-start;
+  color: darkred;
+}
+
+#logo h1 span {
+  color: #f8dbdb;
+}
+
+h1 a:hover {
+  color: darkred;
+  display: block;
+}
+
+#top-nav li {
+  height: 37px;
+  float: left;
+  display: inline-block;
+}
+
+#top-nav li a:hover {
+  color: grey;
+}
+
+#top-nav ul {
+  list-style: none;
+  height: 37px;
+  float: left;
+  display: inline-block;
+}
+
+ul {
+  display: block;
+}
+
+li {
+  display: list-item;
+}
+
+#top-nav ul li a {
+  display: block;
+  padding: 8px 20px;
+  color: red;
+}
+
+.feature {
+  padding: 18px;
+  background-color: red;
+}
+
+.feature-inner {
+  width: 970px;
+}
+
+.feature-inner h1 {
+  color: #f8dbdb;
+  font-size: 32px;
+}
+
+#content #contentbar {
+  float: right;
+  width: 760px;
+}
+
+h3 a {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  font-size: 120%;
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+}
+
+#content #sidebar {
+  float: left;
+  width: 200px;
+}
+
+.sidebar {
+  margin: 0 0 12px;
+  padding: 8px 8px 8px 13px;
+  line-height: 1.4em;
+}
+
+h3 {
+  color: darkred;
+}
+
+#content #sidebar .sidebar li {
+  color: red;
+  list-style: none;
+}
+
+.sidebar:hover {
+  color: grey;
+}
+
+#footersummary {
+  background-color: #f8dbdb;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+}
+
+#footersummary-inner {
+  width: 922px;
+  padding: 24px;
+}
+
+#footersummary .column {
+  text-align: justify;
+  float: left;
+  width: 250px;
+  padding: 0px 24px;
+}
+
+#footer {
+  background: #fff;
+}

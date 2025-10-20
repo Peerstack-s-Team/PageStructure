@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo .cool {
+    color: #7c0a0a;
+}
+
+.logo .logo-text {
+    color: #ae5858;
+}
+
+nav {
+    display: flex;  /*Divin icindeki elementleri yanyana duzur ve mesafeni qoruyur*/
+    gap: 30px;
+}
+
+nav a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #ff0000;
+    padding: 30px 0;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.main-content .container {
+    display: flex;
+    gap: 40px;
+}
+
+.sidebar {
+    flex: 0 0 200px;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;   /*iki elementin beraber bolunmesini gosterir*/
+}
+
+.content button {
+    font-size: 20px;
+    color: #7a7474;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.content h1{
+     color: #000000;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.content p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.8;
+}
+
+
+
+.cards-section {
+    background-color: #ffd6d6;
+    padding: 40px 0;
+}
+
+.cards-section .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.card p {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.6;  /*setirler rasindaki mesafeni teyin edir*/
+}
+
+.cards-section-bottom {
+    background-color: #ffd6d6;
+    padding: 0 0 40px 0;
+}
+
+.cards-section-bottom .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*3sutunhamisi beraber boyda boluecek*/
+    gap: 30px;
+}
+
+.cards-section-bottom .card {
+    background-color: transparent;
+}
+
+.cards-section-bottom .card h1 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.cards-section-bottom .card p {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer p {
+    color: #666;
+    font-size: 12px;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

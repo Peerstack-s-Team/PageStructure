@@ -4,22 +4,45 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 600px)
+@media (max-width: 425px) {
 body {
     font-size: 18px;
     font-family: Arial, sans-serif;
     background-color: #fff;
-    color:  rgb(10, 26, 253)
+    color:  rgb(10, 26, 253);
     line-height: 1.6;
 }
+}
 
+a {
+    text-decoration: none;
+    color: rgb(138, 178, 238);
+    margin-left: 15px;
+    transition: color;
+}
+
+ .nav-menu li a:hover {
+    color: rgb(206, 206, 255) ;
+    text-decoration: underline;
+ }
+
+ .left-sidebar a:hover {
+    color: rgb(206, 206, 255) ;
+    text-decoration: underline;
+ }
 
 .top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+.heading-box {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    width: 100%;
 }
 
 .logo {
@@ -29,7 +52,7 @@ body {
 
 .logo span {
     font-weight: normal;
-    color: #659df1;
+    color: #004dc0;
 }
 
 .nav-menu ul {
@@ -42,7 +65,7 @@ body {
     text-decoration: none;
     color: rgb(10, 26, 253);
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 0px 0px;
     border-radius: 4px;
 }
 
@@ -51,7 +74,7 @@ body {
     color: white;
     text-align: left;
     padding: 20px;
-    margin: 10px;
+   
 }
 
 .main-content {
@@ -102,8 +125,8 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
     background-color: #88bbeb;
-    padding: 20px;
-    margin: 20px 10px;
+    padding: 0px;
+    margin: 0px 0px;
 }
 
 .quote {
@@ -127,4 +150,8 @@ footer {
 footer a {
     color:  rgb(10, 26, 253);
     text-decoration: none;
+}
+footer a:hover {
+    color: rgb(206, 206, 255) ;
+    text-decoration: underline;
 }

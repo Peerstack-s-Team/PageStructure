@@ -224,7 +224,6 @@ box-sizing: border-box;
   }
 
   .content-inner {
-    flex-direction: column;
     padding: 25px 15px;
     gap: 30px;
   }

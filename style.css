@@ -3,23 +3,37 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+
 }
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
  header {
-    background: #f8f6f6;
-    color: #e53935;
+    background: #ffffff;
+    color: #a21411;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20%;
     border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
  }
-header.logo {
+.logo {
     font-size: 24px;
     font-weight: bold;
-    color: darkred;
+    color: rgb(231, 151, 151);
+    font-size:25px;
 }
 header span {
-    color: #f8dbdb;
+    color: #e41111;
 }
 header nav a {
     color: red;
@@ -28,27 +42,28 @@ header nav a {
 }
 li a :hover {
     color: #959595;
-    text-decoration: underline;
     opacity: 0.7;
     color: #e53935;
 }
 .banner {
     background: #e52113;
-    color: white;
-    text-align: left;
+    color: rgb(255, 255, 255);
+  padding-left: 295px;
     align-items: center;
-    padding-left: 120px;
-    height: 90px;
+
+    height: 100px;
     display: flex;
 }
 .navbar {
-    background-color: #ffffff;
-    border-bottom: 1px solid #ccc;
+   
     padding: 10px 0;
-    position: sticky;
-    z-index: 1000;
-    margin: auto;
+    font-size: 16px;
+   
 }
+.navbar a:hover {
+    color: rgb(235, 188, 188);
+}
+
 .container-nav {
     max-width: 960px;
     margin: 0 auto;
@@ -57,7 +72,17 @@ li a :hover {
     justify-content: space-between;
     align-items: center;
 }
-.row {
+.main-content-wrapper {
+    display: flex;
+}
+.left-sidebar {
+    width: 200px;
+    padding-right: 20px;
+}
+.content-area {
+flex-grow: 1;
+
+}.row {
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -65,34 +90,67 @@ li a :hover {
     text-align: center;
     padding: 20px;
 }
-.link a
+.left a
 {
+    padding-top: 15px;
     text-decoration: none;
     color: red;
 }
 .link a:hover
 {
 color: red;
+
 }
-.link { 
+.left li{ 
     list-style: none;
+}
+.articles-section {
+    background-color: #0776ae;
+    color: #feffff;
+    display: flex;
+    margin-top: -50px;
+}
+.content{
+   display: flex;
+   justify-content: center;
+    
+    height:300px;
+
+}
+.content1{
+    display: flex;
+width: 100%;
+justify-content: center;
+ gap: 60px;
+
+}
+.left{
+ 
+}
+
+.important{
+    width: 50%;
+
 }
 .three-columns-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 23px;
     padding: 0 20px;
+    height: 50%;
+    background-color: #ecc4c4;
+    align-items: center;
 }
 .column {
     width: 30%;
     padding: 10px;
-    color: #a0522d;
+    color: #610707;
 }
 footer {
     text-align: center;
-    padding: 15px;
-    margin-top: 30px;
     border-top: 1 px solid #ccc;
     font-size: 12px;
     color: #666;
+    align-items: center;
+    display: flex;
 }

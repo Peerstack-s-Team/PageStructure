@@ -1,11 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   width: 100%;
   color: #959595;
   display: block;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 #page {
   background-color: #fff;
+  margin: 0 auto;
+ 
 }
 div {
   display: block;
@@ -13,19 +24,22 @@ div {
 
 #header {
   background-color: #fff;
-  display: block;
+  padding: 10px 0;
 }
 
 #header-inner {
-  width: 970px;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 #logo h1 a {
   display: flex;
-  justify-content: flex-start;
+ font-weight: bold;
   color: darkred;
+  text-decoration: none;
 }
 
 #logo h1 span {
@@ -41,6 +55,9 @@ h1 a:hover {
   height: 37px;
   float: left;
   display: inline-block;
+  color: red;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 #top-nav li a:hover {
@@ -52,6 +69,8 @@ h1 a:hover {
   height: 37px;
   float: left;
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -69,32 +88,36 @@ li {
 }
 
 .feature {
-  padding: 18px;
+  padding: 18px 0;
   background-color: red;
 }
 
 .feature-inner {
   width: 970px;
+  margin: 0 auto;
 }
 
 .feature-inner h1 {
   color: #f8dbdb;
   font-size: 32px;
+  margin-left: 20px
 }
 
+#content-inner {
+  
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+}
 #content #contentbar {
   float: right;
-  width: 760px;
+  width: 80%;
 }
 
-h3 a {
-  background-color: #eee;
-  border: 1px solid #ccc;
-  font-size: 120%;
-  text-decoration: none;
-  color: black;
-  padding: 3px;
+h2 {
+  color: darkred;
 }
+
 
 #content #sidebar {
   float: left;
@@ -116,7 +139,7 @@ h3 {
   list-style: none;
 }
 
-.sidebar:hover {
+.sidebar li a:hover {
   color: grey;
 }
 
@@ -125,24 +148,44 @@ h3 {
   color: red;
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
-  position: fixed;
-  width: 100%;
+  align-items: flex-start;
+  
   padding: 20px 0;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 #footersummary-inner {
-  width: 922px;
-  padding: 24px;
+  background-color: #f8dbdb;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+  padding: 20px 0;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 #footersummary .column {
   text-align: justify;
-  float: left;
   width: 250px;
   padding: 0px 24px;
 }
 
 #footer {
-  background: #fff;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: red;
+  height: ;
+}
+
+#footer-inner {
+  position: 15px;
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+
 }

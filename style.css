@@ -1,23 +1,24 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Arial, sans-serif
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif
 }
 
-body{
-  width: 100vw;
-  height: 100vh;
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     background: #f8f6f6;
-    color:#ffffff
-
+    color: #ffffff
 }
 
-.logo{
+.logo {
     padding-top: 10px;
     padding-bottom: 1px;
     padding-left: 450px;
@@ -27,11 +28,12 @@ body{
     width: fit-content;
     height: fit-content;
 }
-header span{
+
+header span {
     color: #f7c4c4
 }
 
-.box{
+.box {
     display: flex;
     list-style: none;
     margin: 0;
@@ -41,144 +43,158 @@ header span{
     top: -20px;
 }
 
-.box nav a{ 
+.box nav a {
     display: flex;
     margin: 17px;
     font-size: 13px;
-    transition: all 0.3s ease;
-    color:red;
+    transition: all 0.5s ease;
+    color: red;
     text-decoration: none;
     padding-left: 5%;
 }
 
-.box  a:hover{
+.box a:hover {
     color: rgb(235, 188, 188);
 }
 
-.head{
+.head {
     display: flex;
     margin-top: -15px;
     background: #ff1500;
     color: rgb(204, 202, 202);
     text-align: left;
-   
+
 }
 
-.head h1{
+.head h1 {
     padding-left: 450px;
-    padding-top:  30px;
+    padding-top: 30px;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
-main aside ul{
-    margin-top: 20px;
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-/* main aside ul li a{
-    color: #912119;
-    transition: color 0.3s ease;
-    font-size: 12px;
-    padding-left: 158px;
-    padding-top: 1px;
-    padding-bottom: 5px;
-    text-decoration:none;
-    display:block;
-    color:#f81100; 
-} */
+.content {
+    width: 100%;
+    display: flex;
 
-
-.container{
-
-
-    line-height: 1.5;
-    width: 45%;
-    color:#8d8d8d;
 }
 
-.container p{
+.container {
+    width: 30%;
+    padding: 20px;
+}
+
+.lft-hdng {
+    width: 25%;
+    height: 10;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+
+}
+
+.container h3 {
+    color: black;
+    padding: 7px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #cccaca;
+    font-weight: 600;
+}
+
+.container p {
     margin: 5px 0;
     margin-top: 0;
     font-size: 12px;
     line-height: 2;
-    color:#8d8d8d;
+    color: #6b6969;
 }
 
-.container span{
+.container span {
     display: block;
     margin-top: 10px;
-    color:#8d8d8d;
+    color: #6b6a6a;
     font-size: 14px;
 }
 
-.container h4{
+.container h4 {
     margin-top: 15px;
     font-size: 18px;
-    color:#912119;
+    color: #912119;
 }
 
-main aside ul li a:hover{
+main aside ul li a:hover {
     color: rgb(235, 188, 188);
 }
 
-.box{
+.box {
     display: flex;
     padding: 10px;
     width: 200px;
     padding-left: 65%;
 }
 
-.left a{
+.left a {
     text-decoration: none;
     color: red;
+
 }
+
 .left li {
     list-style: none;
-
+    padding: 4px
 }
 
-.content{
-    width: 100%;
+.left {
     display: flex;
-}
-.left{
-    display: flex;
-    justify-content: center;
     width: 50%;
     align-items: center;
     flex-direction: column;
-}
-.lft-hdng{
-color: #912119;
+    padding: 20px;
 }
 
-.ul li a{
-    width: 40px;
-    height: 35px;
-    padding-left: 750px;
-
-}
-
-footer{
+footer {
     height: 50px;
-    margin-top: 40px;
     font-size: 12px;
     color: #7a7a7a;
     text-align: center;
 }
 
-footer a{
+footer a {
     color: #fd1b1b;
     text-decoration: none;
 }
-.headingler{
+
+.headingler {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc8c8;
+    align-items: flex-start;
+    padding: 50px;
     width: 100%;
-    height: 100%;
+}
+
+.sonuncu_divler {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #ffc8c8;
+    height: 100%;
+    justify-content: space-around;
+    width: 25%;
+    color: #fd1b1b;
 }
-.sonuncu_divler{
- display: flex;
- flex-direction: column;
+
+.sonuncu_divler h3{
+    color: #912119;
+    display: flex;
+    padding: 10px;
 }
+   

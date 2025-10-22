@@ -18,7 +18,7 @@
 }
 #header #information ul li {
     color: red;
-    font-size: 12px;
+    font-size: 0.625vw;
     margin-top: 2%;
 }
 #header #information ul li a{
@@ -31,7 +31,7 @@
     color: darkred;
     float: left;
     margin: 1% 0 0 20%;
-    font-size: 25px;
+    font-size: 1.302vw;
 }
 #header #logo a span {
     color: #f8dbdb;
@@ -41,12 +41,13 @@
     color: white;
     background-color: red;
     width: 100%;
-    height: 100px;
+    height: 5.208vw;
 }
 #heading h1 {
     margin-left: 20%;
     float: left;
-    margin-top: 30px;
+    margin-top: 2%;
+    font-size: 1.5vw;
 }
 
 .center #left-heading {
@@ -57,11 +58,14 @@
     height: 20%;
     margin-left: 20%;
     color: darkred;
-    margin-top: 25px;
+    margin-top: 1%;
+}
+.center #left-heading h3 {
+    font-size: 1vw;
 }
 .center #left-heading ul {
     list-style: none;
-    font-size: 12px;
+    font-size: 0.625vw;
     margin-top: 2%;
 }
 .center #left-heading ul li {
@@ -80,24 +84,24 @@
 }
 .center #center-right #page-center #button{
     margin: 3% 0 3% 0;
-    font-size: large;
+    font-size: 0.925vw;
     font-weight: bolder;
     width: 35%;
 }
 .center #center-right #page-center p {
-    font-size: 12px;
+    font-size: 0.625vw;
     color: gray;
     line-height: 2;
 }
 .center #center-right #content h3 {
     color: darkred;
     padding: 2% 0 2% 0;
-    font-size: 25px;
+    font-size: 1.302vw;
 }
 .center #center-right #content p {
     color: gray;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 0.625vw;
     line-height: 2;
 }
 #inner #heading-inner {
@@ -110,10 +114,11 @@
 #inner #heading-inner h3 {
     margin: 2% 0 2% 0;
     color: darkred;
+    font-size: 1.302vw;
 }
 #inner #heading-inner p {
     color: red;
-    font-size: 12px;
+    font-size: 0.625vw;
     line-height: 2;
 }
 #inner #heading-inner #page-inner {
@@ -130,7 +135,7 @@
 }
 
 #inner #copyright ul {
-    font-size: 12px;
+    font-size: 0.625vw;
     justify-content: center;
     display: flex;
     padding: 0;

@@ -1,15 +1,141 @@
-* {
-    padding: 0;
-    margin: 0;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+   /* overflow-y: hidden; */
 }
-.text ul{
-    list-style: none;
-}
-.apple{
-    background-color: red;
-    width: 100%;
-    height: 100px;
-    display: center;
-    align-content: center;
 
-}  
+/* --- Header hissəsi --- */
+.top-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin: 0 auto;
+    padding: 0;
+    width: 970px;
+}
+.cooloqo h2{
+  font-size: 20px;
+  color: darkred;
+}
+.loqo span { 
+  color: pink;
+}
+.nav a {
+  text-decoration: none;
+  padding-right: 20px;
+  margin-left: 20px;
+  color: red;
+  font-size: 14px;
+}
+/* --- Heading bölməsi --- */
+/*====================Main==============*/
+.red-head{
+width: 100%;
+height: 100px;
+background-color: red;
+color: white;
+font-size: 15px;
+display: flex;
+text-align: center;
+padding-left: 280px;
+}
+.template{
+  font-size: 16px;
+  width: 239px;
+  height: 40px;
+  color: black;
+  align-items: center;
+}
+.template a{
+  color: black;
+  display: inline;
+  background-color: #EEEEEE;
+  text-decoration: none;
+  padding: 3px;
+}
+.main-prgrf{
+  font-size: 12px;
+}
+.article p {
+  color: #959595;
+}
+.left{
+  width: 15%;
+}
+.article h2{
+  color: darkred;
+  font-size: 16px;
+}
+.dark{
+  color: darkred;
+  font-size: 16px;
+  padding-left: 38px;
+  
+}
+.left a{
+  color: red;
+  text-decoration: none;
+  display: flex;
+}
+.left ul{
+  list-style-type: none;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  
+}
+
+
+.content-bar{
+  display: flex;
+ justify-content: center;
+
+}
+.article{
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+}
+.footer{
+  background-color: #f8dbdb;
+  color: red;
+  padding: 40px 0; 
+}
+.footer-inner{
+  margin: 0;
+  padding: 24px;
+  display: flex;
+  gap: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 190px;
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #ffc0cb66;
+  color: red;
+  padding: 0 200px;
+}
+.footer-inner h2{
+  color: darkred;
+  font-size:20px ;
+}
+.prgrf-inner{
+  font-size: 12px;
+  line-height: 1.8;
+
+}
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+  color:#959595;
+  font-size: 12px;
+  height: 90px;
+}
+
+.end-1 a{
+  color: red;
+}

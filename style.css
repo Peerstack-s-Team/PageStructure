@@ -1,128 +1,223 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    width: 100vw !important;
+    height: 100vh;
     font-family: Arial, sans-serif;
 }
-/* usefull companent start */
-.container-center{
-    padding-inline: 20%;
-}
-/* usefull companent end */
 
-header .container{
+
+.container {
     display: flex;
     justify-content: space-between;
-    padding-block:20px;
     align-items: center;
+    padding: 20px;
+    padding-inline: 200px;
 }
 
-.navbar ul{
-  
-    display: flex;
-}
-
-.logo{
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: sans-serif;
+.logo {
     color: darkred;
-}
-
-.logo a{
-  text-decoration: none;
-  color: #f8dbdb;
-}
-
-.navbar ul li{
-  list-style: none;
-  display: inline-block;
-  margin: 0% 15px;
-}
-
-.navbar ul li a{
-  color:red;
-  text-decoration: none;
-  font-size: 13px;
-}
-
-.navbar ul li a{
-  color:red;
-}
-.navbar ul li a:hover{
-  transition: color 0.3s;
-  color: #99999933
-}
-
-.center{
-  background-color: red;
-  color:#f8dbdb;
-  padding-top: 20px;
-  font-size: 21px;
-  height: 100px;
-}
-
-aside ul li a{
-    text-decoration: none;
-    list-style: none;
-    color:red;
-    margin: 20px;
-}
-
-main{
-    display:flex;
-    width: 100%;
-    padding-block:80px;
-}
-
-a.search-button
-{
-    text-decoration: none;
-    color:black;
-    padding: 10px;
-    display:inline-block;
-    border-style:solid;
-    border-width: 1px;
-    background-color: rgba(192, 192, 192, 0.356);
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
-.content-iteam h2{
-    color:darkred;
+.logo a {
+    text-decoration: none;
+    color: #f1d5d4;
+}
+
+.navbar ul {
+    word-spacing: 35px;
+    font-size: 1.1rem;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: red;
+}
+
+.navbar ul a:hover {
+    color: lightgrey;
+
+}
+
+.center {
+    font-size: 1.5rem;
+    padding: 30px;
+    padding-inline-start: 200px;
+    background-color: red;
+}
+
+.center h1 {
+    color: rgb(241, 216, 221);
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+aside {
+    width: 40%;
+    padding-inline-start: 200px;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 15px;
-    font-size: 18px;
 }
 
-.content-iteam p{
-    padding:15px;
-    font-size:14px;
-    color:grey;
-
-}
-
-aside{
-    min-width: 200px;
-}
-
-.footer-up{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.footer-block{
+.content-item {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    align-items: center;
-    
 }
 
-footer{
-    width: 100%;
+.content-item h2 {
+    padding: 5px;
+}
+
+.content-item p {
+    padding: 5px;
+}
+
+.top-content button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+aside h3 {
+    color: darkred;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+aside a {
+    text-decoration: none;
+    color: red;
+}
+
+aside ul a:hover {
+    color: lightgrey
+}
+
+aside li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: hsl(0, 100%, 90%);
+}
+
+.footer-block {
+    width: 30%;
+}
+
+.end-block {
+    padding: 10px;
+    color: gray;
+}
+
+.end-block a{
+    color: red;
+    text-decoration: none;
+}
+
+
+@media (max-width:930px) {
+    .container{
+        padding-inline: 100px;
+    }
+    .center{
+        padding-inline-start: 100px;
+    }
+    aside{
+        padding-inline-start: 100px;
+    }   
+}
+
+@media (max-width:695px) {
+    .container{
+        padding-inline: 50px;
+    }
+    .center{
+        padding-inline-start: 50px;
+    }
+    aside{
+        padding-inline-start: 50px;
+    }
+}
+
+@media (max-width:585px) {
+    .container{
+        padding-inline: 2%;
+    }
+    .center{
+        padding-inline-start: 2%;
+    }
+    aside{
+        padding-inline-start: 2%;
+    }
+    .navbar ul{
+        word-spacing: 10px;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .center{
+        font-size: 1rem;
+    }
+    .right{
+        width: 50%;
+    }
+}
+
+@media (max-width:410px){
+    body{
+        padding: 2px;
+    }
+    .end-block{
+        padding: 2px;
+        font-size: 0.8rem;
+    }
+    .container{
+        padding-inline: 0;
+    }
+    .center{
+        padding-inline-start: 0;
+    }
+    aside{
+        padding-inline-start: 0;
+    }
+    .navbar ul{
+        word-spacing: 5px;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .center{
+        font-size: 1rem;
+    }
+}

@@ -24,6 +24,10 @@
     display: inline-block;
 }
 
+.navbar ul a:hover{
+    color: #f8dbdb;
+}
+
 .firstpart {
     font-size: 25px;
     font-weight: 550;
@@ -40,9 +44,9 @@
 .heading2 {
     background: red;
     color: #f8dbdb;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .contentbar {
@@ -59,6 +63,11 @@
     padding: 20px;
     background-color: transparent;
     border: none;
+
+}
+
+.left-aside ul a:hover {
+    color: #f8dbdb;
 }
 
 .left-aside h3{
@@ -108,4 +117,58 @@
 .article p {
     line-height: 1.6;
     margin-bottom: 15px;
+    color: grey;
+}
+
+.footer-up {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-block {
+    flex: 1;
+    min-width: 280px;
+    max-width: 380px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    box-shadow: none;
+    margin: 0;
+}
+
+.footer-block h2 {
+    color: darkred;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-block p {
+    color: red;
+    line-height: 1.5;
+}
+
+.end-block p{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.foot-area {
+    display: flex;
+}
+
+
+.red {
+    color: red;
+    text-decoration: none;
 }

@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,7 +16,6 @@ body {
 #page {
   background-color: #fff;
   margin: 0 auto;
- 
 }
 div {
   display: block;
@@ -25,10 +24,11 @@ div {
 #header {
   background-color: #fff;
   padding: 10px 0;
+  text-align: center;
+  margin-left: 300px;
 }
 
 #header-inner {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,7 @@ div {
 
 #logo h1 a {
   display: flex;
- font-weight: bold;
+  font-weight: bold;
   color: darkred;
   text-decoration: none;
 }
@@ -100,11 +100,10 @@ li {
 .feature-inner h1 {
   color: #f8dbdb;
   font-size: 32px;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 #content-inner {
-  
   margin: 0 auto;
   overflow: hidden;
   padding: 20px 0;
@@ -117,7 +116,6 @@ li {
 h2 {
   color: darkred;
 }
-
 
 #content #sidebar {
   float: left;
@@ -149,7 +147,7 @@ h3 {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  
+  text-decoration: none;
   padding: 20px 0;
   margin: 0 auto;
   box-sizing: border-box;
@@ -161,7 +159,6 @@ h3 {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  
   padding: 20px 0;
   margin: 0 auto;
   box-sizing: border-box;
@@ -187,5 +184,14 @@ h3 {
   text-align: center;
   margin: 10px;
   font-size: 14px;
+}
 
+#footer-inner a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: red;
 }

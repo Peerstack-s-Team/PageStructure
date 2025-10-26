@@ -105,7 +105,7 @@ aside ul li a:hover {
     color: #ff0000;
 }
 
-/* Content */
+
 #content {
     flex: 1;
     padding: 30px;
@@ -150,4 +150,5 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
 }

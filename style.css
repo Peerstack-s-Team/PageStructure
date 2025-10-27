@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -31,6 +31,7 @@
 .firstpart {
     font-size: 25px;
     font-weight: 550;
+    padding-left: 55px;
 }
 
 .firstpart p {
@@ -45,8 +46,9 @@
     background: red;
     color: #f8dbdb;
     padding-left: 80px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%
 }
 
 .contentbar {
@@ -99,12 +101,17 @@
 .search-button {
     text-decoration: none;
     color: black;
-    padding: 4px;
+    padding: 10px;
     display: inline-block;
-    border-width:
+    border: 2px solid black;
     background-color: rgba(192, 192, 192, 0.356);
     font-weight: bold;
-    border-color: rgb(199, 197, 197);
+    border-radius: 10px;
+}
+
+.search-button a{
+    text-decoration: none;
+    color: black;
 }
 
 .article h2 {
@@ -120,14 +127,13 @@
     color: grey;
 }
 
-.footer-up {
+.foot-area {
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 30px 20px;
     background-color: rgba(255, 0, 0, 0.2);
     margin-top: 30px;
-    flex-direction: column;
     gap: 20px;
 }
 
@@ -160,15 +166,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    
 }
-
-.foot-area {
-    display: flex;
-}
-
 
 .red {
     color: red;
     text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }

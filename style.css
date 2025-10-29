@@ -12,22 +12,20 @@ body {
     flex-direction: column;
 }
 
-.header {
+header {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: #f8f6f6;
-    color: #ffffff
+    color: #ffffff;
+    padding: 20px;
 }
 
 .logo {
-    padding-top: 10px;
-    padding-left: 450px;
     font-size: 24px;
     font-weight: bold;
     color: darkred;
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
+    padding-inline: 100px;
 }
 
 header span {
@@ -37,11 +35,6 @@ header span {
 .box {
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-top: -10px;
-    position: relative;
-    top: -20px;
 }
 
 .box nav a {
@@ -92,7 +85,7 @@ main {
 }
 
 .lft-hdng {
-    width: 25%;
+    width: 45%;
     height: 10;
     display: flex;
     justify-content: center;
@@ -109,7 +102,8 @@ main {
     border-style: solid;
     border-width: 1px;
     background-color: #cccaca;
-    font-weight: 600;
+    font-weight: 600px;
+
 }
 
 .container p {
@@ -118,6 +112,7 @@ main {
     font-size: 12px;
     line-height: 2;
     color: #6b6969;
+    padding-right: 30px;
 }
 
 .container span {
@@ -137,12 +132,6 @@ main aside ul li a:hover {
     color: rgb(235, 188, 188);
 }
 
-.box {
-    display: flex;
-    padding: 10px;
-    width: 200px;
-    padding-left: 65%;
-}
 
 .left a {
     text-decoration: none;
@@ -168,13 +157,13 @@ footer {
     font-size: 12px;
     color: #7a7a7a;
     text-align: center;
-  
+
 }
 
 footer a {
     color: #fd1b1b;
     text-decoration: none;
-   
+
 }
 
 .headingler {
@@ -184,6 +173,7 @@ footer a {
     align-items: flex-start;
     padding: 50px;
     width: 100%;
+    padding-inline: 50px;
 }
 
 .sonuncu_divler {
@@ -197,9 +187,8 @@ footer a {
     color: #fd1b1b;
 }
 
-.sonuncu_divler h3{
+.sonuncu_divler h3 {
     color: #912119;
     display: flex;
     padding: 10px;
 }
-   
